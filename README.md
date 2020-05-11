@@ -27,10 +27,16 @@ Remark: Due to insufficient CPU, the deployment is being scaled with command `ku
 
 ### Running the Development Server
 Open terminal and run
-1. kubectl port-forward service/reverseproxy 8080:8080
-2. kubectl port-forward service/frontend 8100:8100
+1. `kubectl port-forward service/reverseproxy 8080:8080`
+2. `kubectl port-forward service/frontend 8100:8100`
 
-### Github & Travis link
+### Github & Travis & DockerHub Repository link
 https://github.com/kzw-ping/refactor-udagram-app
+
 https://travis-ci.com/github/kzw-ping/refactor-udagram-app
+
+https://hub.docker.com/repository/docker/chitping/udacity-frontend
+https://hub.docker.com/repository/docker/chitping/udacity-restapi-feed
+https://hub.docker.com/repository/docker/chitping/udacity-restapi-user
+https://hub.docker.com/repository/docker/chitping/reverseproxy
 ***
